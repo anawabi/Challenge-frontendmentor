@@ -1,2 +1,2 @@
 # Challenge-frontendmentor
-Some challenge picked from the frontendmentro site (https://www.frontendmentor.io/)
+Some challenge picked from the frontendmentor site (https://www.frontendmentor.io/)
