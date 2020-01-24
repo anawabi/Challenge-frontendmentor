@@ -1,0 +1,135 @@
+/*  Tag Selector */
+
+body {
+    background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0.5rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/******* CLASS SECTION *********/
+
+.fa-2x {
+    font-size: 1rem;
+}
+
+.register-btn {
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 28px;
+    padding: 10px 60px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.register-btn:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.navbar {
+    margin-left: 3rem;
+    padding-left: 0;
+}
+
+.left-box {
+    flex-basis: 50%;
+    margin: 2rem;
+    text-align: left;
+}
+
+.right-box {
+    flex-basis: 50%;
+    margin: 2rem;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+footer .footer {
+    position: relative;
+    width: 100%;
+}
+
+.btn-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 4.5rem;
+}
+
+.social-btn {
+    border-radius: 50%;
+    margin: 20px 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.social-btn:hover {
+    background-color: #2EE59D;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.attribution a {
+    color: #2EE59D;
+}
+
+
+/*** MEDIA QUERIES ***/
+
+/** Phone viewport **/
+@media only screen and (min-width: 600px) {
+
+    body {
+        background-image: url(../images/bg-desktop.svg);
+
+    }
+
+    .flex-container {
+        margin: 1rem;
+        display: flex;
+
+        justify-content: space-between;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .right-box {
+        text-align: left;
+    }
+
+    .btn-container {
+        margin-right: 6.5625rem;
+
+    }
+
+    .attribution {
+        padding-top: 2rem;
+    }
+}
