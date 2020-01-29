@@ -1,0 +1,169 @@
+/*====================================================
+                    NOTE
+In this project i used selectors to target all the h2
+(and the only h5). This is not a best practice to use
+for more complex project/challenge, but for this case
+it was more handy useful and practical to use.
+
+====================================================*/
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+h2,
+h5 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+
+
+/* Main containers */
+
+.parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-div {
+    margin: 4rem 2rem 4rem 2rem;
+    box-shadow: 0 0.375rem 1rem 0.25rem rgba(83, 83, 83, .2);
+    border-radius: 15px;
+}
+
+/*================*/
+
+
+
+/*  Upper Box section   */
+
+.upper-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.upper-box h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+.upper-box h5 {
+    color: hsl(71, 73%, 54%);
+}
+
+.upper-box p {
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 0;
+}
+
+.left-box {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.right-box {
+    background-color: hsl(179, 95%, 39%);
+}
+
+/*================*/
+
+
+
+/*  Bottom Box section   */
+
+.bottom-box {
+    color: #fff;
+}
+
+/*================*/
+
+
+
+/*  Left box    */
+
+.left-box {
+    padding: 2rem;
+}
+
+
+.left-box span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.sign-up {
+    background: linear-gradient(to bottom, hsl(71, 73%, 54%) 5%, #72b352 100%);
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 4px;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 9px 62px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5b8a3c;
+    width: 100%;
+}
+
+.sign-up:hover {
+    background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color: #72b352;
+}
+
+.sign-up:active {
+    position: relative;
+    top: 1px;
+}
+
+/*================*/
+
+
+
+/*  Right box    */
+
+.right-box {
+    padding: 2rem;
+    border-radius: 0 0 15px 15px;
+}
+
+/*================*/
+
+
+
+/* Footer section */
+
+.footer-copyright a {
+    color: hsl(179, 62%, 43%);
+}
+
+/*================*/
+
+
+/*  Media Queries */
+
+@media screen and (min-width: 800px) {
+
+    .container-div {
+        width: 50%;
+    }
+
+    .bottom-box {
+        display: flex;
+    }
+
+    .left-box {
+        border-radius: 0 0 0 15px;
+        width: 50%;
+    }
+
+    .right-box {
+        border-radius: 0 0 15px 0;
+        width: 50%;
+    }
+}
