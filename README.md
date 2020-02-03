@@ -1,4 +1,6 @@
 # Challenge-frontendmentor
-Main directory where to find all my challenge from frontendmentor (https://www.frontendmentor.io)
+Consult the quick index to see my complete projects.
+
+Fast index here: (https://github.com/FraCav99/Challenge-frontendmentor/tree/master/index/index.html)
 
 Feel free to modify/change code! Share your modify!
