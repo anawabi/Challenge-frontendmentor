@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-container {
+    background: url(../images/bg-hero-mobile.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*  NavBar   */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar img {
+    width: 30%;
+    height: 20%;
+}
+
+.navbar button {
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    border-width: 0;
+    box-shadow: 0px 15px 25px 0px rgba(83, 83, 83, .2);
+}
+
+/*===========*/
+
+/*  Content   */
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.call-to-action h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+}
+
+.call-to-action button {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-width: 0;
+    width: 260px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.mockup-image img {
+    width: 75%;
+    padding-top: 2rem;
+}
+
+/*===========*/
+
+
+/*  Media Query   */
+
+@media screen and (min-width: 1025px) {
+
+    .parent-container {
+        background: url(../images/bg-hero-desktop.svg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+    .navbar {
+        padding: 2rem;
+    }
+
+    .navbar img {
+        width: 15%;
+    }
+
+    .content-container {
+        flex-direction: row;
+    }
+
+
+
+    .call-to-action {
+        padding-left: 5rem;
+        padding-top: 5rem;
+        text-align: left;
+        width: 80%;
+    }
+
+    .call-to-action p,
+    h1 {
+        width: 70%;
+    }
+
+}
+
+/*===============*/
